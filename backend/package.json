@@ -1,0 +1,25 @@
+{
+  "name": "g-drive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "yes",
+  "type": "module",
+  "scripts": {
+    "test": " NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand",
+    "test:watch": " NODE_OPTIONS=--experimental-vm-modules npx jest --watch --runInBand",
+    "test:cov": " NODE_OPTIONS=--experimental-vm-modules npx jest no-cache --runInBand --coverage",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "dihgo01",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "pino": "^6.13.2",
+    "pino-pretty": "^6.0.0",
+    "socket.io": "^4.2.0"
+  }
+}
