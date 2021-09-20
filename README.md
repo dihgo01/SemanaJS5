@@ -26,7 +26,7 @@
    
 ## :rocket: Technologies
 
-This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
+This project was developed at the with the following technologies:
 
 -  [NodeJS](https://nodejs.org/en/)
 -  [Busboy](https://www.npmjs.com/package/busboy)
